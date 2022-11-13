@@ -5,6 +5,7 @@
         <groupId>com.llh</groupId>
         <version>1.0.0</version>
         <artifactId>parent</artifactId>
+        <relativePath/>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -17,16 +18,15 @@
     <modules>
         <!--包管理模块-->
         <module>parent</module>
+
+        <!--示例-服务消费者-->
+        <module>consume</module>
+
+        <!--示例-服务提供者-->
+        <module>provider</module>
     </modules>
 
     <dependencies>
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-        </dependency>
+
     </dependencies>
 </project>
